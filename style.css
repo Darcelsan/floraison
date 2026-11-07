@@ -1,0 +1,13 @@
+/* Pages d'aide et de confidentialité de Floraison : papier crème, encre, serif de dictionnaire */
+:root { --paper: #f9f5ec; --card: #fffaf0; --ink: #38364a; --ink-2: #6a6780; --line: rgba(92,80,120,.2); --accent: #b3402c; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper) radial-gradient(70% 45% at 8% 0%, #e3eedc, transparent 70%); color: var(--ink);
+       font: 17px/1.6 "Iowan Old Style", "Palatino", Georgia, serif; min-height: 100vh; }
+main { max-width: 720px; margin: 0 auto; padding: 36px 16px 64px; }
+h1 { font-size: 2.6rem; font-style: italic; font-weight: 600; margin: 0; }
+.tag { margin: 0 0 18px; color: var(--ink-2); font-style: italic; }
+h2 { margin-top: 0; font-style: italic; font-weight: 600; }
+nav a { color: var(--ink-2); margin-right: 14px; }
+section { background: var(--card); border: 1px solid var(--line); border-radius: 6px 12px 7px 14px; padding: 20px 22px; margin: 20px 0; box-shadow: 0 3px 10px rgba(80,70,110,.1); }
+a { color: var(--accent); }
+.muted { color: var(--ink-2); font-size: .9rem; }
